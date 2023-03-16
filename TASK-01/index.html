@@ -4,9 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TXON-Task-1</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    
+<header>
+    <nav>
+        <div class="logo">
+            <h1><a href="#">Stars <span>Music</span></a></h1>
+        </div>
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Our Programs</a>
+            <a href="#">Contact</a>
+            <a href="#">Booking</a>
+        </div>
+        <div class="icon">
+            <img src="images/fb.png">
+            <img src="images/ig.png">
+            <img src="images/tw.png">
+        </div>
+    </nav>
+
+    <section>
+        <h1>Music is <span id="typing"></span></h1>
+        <img src="images/giphy.gif" width="250">
+        <p>Everyone has a quality. Music is the best thing in our life. We can forget all the stress while listening music.</p>
+        <button>Ready to Watch</button>
+        <button>Subscribe Us</button>
+    </section>
+</header>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    var typed = new Typed('#typing', {
+        strings: ["Love", "Dream"],
+        typeSpeed: 200,
+        backSpeed:200,
+        loop:true
+      });
+</script>
 </body>
 </html>
